@@ -1,0 +1,506 @@
+<style>
+
+  body{
+    background: black;
+  }
+
+  .flag {
+    /*background: black;*/
+    width: 800px;
+    height: 500px;
+  }
+
+  .blue-field {
+    background: blue;
+    width: 380px;
+    height: 252px;
+    /*position: absolute;*/
+    float: left;
+  }
+
+  .stripe {
+    height: 36px;
+  }
+
+  .stripe:nth-child(odd) {
+    background: white;
+  }
+
+  .stripe:nth-child(even) {
+    background: red;
+  }
+
+  .triangle {
+    position: absolute !important;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 8px solid white;
+    /*float:left;*/
+  }
+
+  .star {
+    -webkit-transform: rotate(180deg);
+    display: block;
+    float: left;
+    height: 17px;
+    width: 27px;
+    /*background: black;*/
+  }
+
+  .star.push{
+    margin-left: 40px;
+  }
+
+  .triangle1 {
+    -webkit-transform: rotate(0deg);
+  }
+
+  .triangle2 {
+    -webkit-transform: rotate(72deg);
+  }
+
+  .triangle3 {
+    -webkit-transform: rotate(144deg);
+  }
+
+  .triangle4 {
+    -webkit-transform: rotate(-144deg);
+  }
+
+  .triangle5 {
+    -webkit-transform: rotate(-72deg);
+  }
+
+  .row{
+    height: 27px;
+    width: 380px;
+  }
+
+  .row:nth-child(odd){
+    /*position: absolute;*/
+    margin-left: 7px;
+    /*margin-top: 5px;*/
+
+  }
+
+  .row:nth-child(even){
+    margin-left: 40px;
+  }
+
+</style>
+
+
+<div class="flag">
+
+
+  <div class="blue-field">
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="star">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+      <div class="star push">
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle4"></div>
+        <div class="triangle triangle3"></div>
+        <div class="triangle triangle2"></div>
+        <div class="triangle triangle1"></div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+
+</div>
+
+
